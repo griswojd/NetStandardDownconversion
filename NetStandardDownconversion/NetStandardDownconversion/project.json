@@ -1,11 +1,12 @@
 ﻿{
 	"version": "1.0.0-*",
-	"description" : "A publicly-accessible package",
-	"dependencies": {
-		"Microsoft.Extensions.DependencyInjection": "1.0.0-rc2-final"
-	},
+	"description": "A publicly-accessible package",
 	"frameworks": {
-		"net452": { }
+		"net452": {
+			"dependencies": {
+				"Microsoft.Extensions.DependencyInjection": "1.0.0-rc2-final"
+			}
+		}
 	},
 	"runtimes": {
 		"win": { }
